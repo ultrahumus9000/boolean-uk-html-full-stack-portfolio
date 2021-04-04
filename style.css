@@ -170,6 +170,7 @@ button a {
   grid-template:
     ".  exwrap ." 1fr/
     400px 1fr 400px;
+  padding-top: 15px;
 }
 .exwrap {
   grid-area: exwrap;
