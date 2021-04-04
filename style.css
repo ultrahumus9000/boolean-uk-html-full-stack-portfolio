@@ -50,7 +50,7 @@ nav li {
 .container {
   display: grid;
   place-content: center;
-  grid-template-rows: 400px 1fr;
+  grid-template-rows: 400px auto 200px;
 }
 
 .hwrap h1 {
@@ -59,6 +59,7 @@ nav li {
 }
 .pwrap p {
   grid-area: pwrap;
+  font-size: 25px;
 }
 .hwrap {
   display: grid;
@@ -81,6 +82,14 @@ strong {
   grid-template:
     ". pwrap ." auto/
     1fr 55ch 1fr;
+  margin: 20px;
+}
+.container div {
+  text-align: center;
+  border: 2px dashed white;
+
+  height: 40px;
+  width: 500px;
 }
 .nav-one a {
   text-decoration: none;
