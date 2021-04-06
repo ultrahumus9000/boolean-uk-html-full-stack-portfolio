@@ -133,8 +133,8 @@ strong {
 }
 .result {
   display: grid;
-  grid-template-columns: repeat(3, auto);
-  gap: 60px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 30px;
 }
 .result section {
   border: 5px solid rgb(208, 41, 77);
