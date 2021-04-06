@@ -134,7 +134,7 @@ strong {
 .result {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 30px;
+  gap: 40px;
 }
 .result section {
   border: 5px solid rgb(208, 41, 77);
